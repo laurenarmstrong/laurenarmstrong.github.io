@@ -5,12 +5,18 @@ body {
 h1 {
 	font-family: veranda;
 	font-weight: bold;
-	text-align: center;
+	text-align: left;
 	color: white;
 }
 
 #navbar {
-	position: fixed;
-	top:10px;
-	left: 50%;
+	color: white;
+}
+
+#left {
+	color: white;
+}
+
+#right {
+	color: white;
 }
