@@ -1,16 +1,22 @@
 body {
-	background-color: black
+	background-color: #797985;
 }
 
 h1 {
-	font-family: veranda;
+	font-family: Helvetica;
 	font-weight: bold;
+	letter-spacing: 3px;
 	text-align: left;
 	color: white;
 }
 
+#title {
+	color: #F20A57;	
+}
+
 #navbar {
 	color: white;
+	text-align: right;
 }
 
 #left {
