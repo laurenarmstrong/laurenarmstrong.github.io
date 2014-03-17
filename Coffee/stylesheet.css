@@ -1,61 +1,91 @@
+@font-face {
+    font-family: "grand_hotelregular";
+    src: url("type/grand hotel regular/grandhotel-regular-webfont.eot");
+    src: url("type/grand hotel regular/grandhotel-regular-webfont.eot?#iefix") format("embedded-opentype"),
+         url("type/grand hotel regular/grandhotel-regular-webfont.woff") format("woff"),
+         url("type/grand hotel regular/grandhotel-regular-webfont.ttf") format("truetype"),
+         url("type/grand hotel regular/grandhotel-regular-webfont.svg#grand_hotelregular") format("svg");
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face {
+    font-family:"winterthurcondensedregular";
+    src: url("type/winter thur condensed/winterthurcondensed-webfont.eot");
+    src: url("type/winter thur condensed/winterthurcondensed-webfont.eot?#iefix") format("embedded-opentype"),
+         url("type/winter thur condensed/winterthurcondensed-webfont.woff") format("woff"),
+         url("type/winter thur condensed/winterthurcondensed-webfont.ttf") format("truetype"),
+         url("type/winter thur condensed/winterthurcondensed-webfont.svg#winterthurcondensedregular") format("svg");
+    font-weight: normal;
+    font-style: normal;}
+
 body {
-	font-family: serif;
+	font-family: Palatino;
 	text-align: center;
 	margin: 0px;
 }
 
 header {
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	padding: 10px;
+	float: left;
 	width: 100%;
-	background-color: white;
-	background-image: url("images/coffee_beans.jpg");
+	background-color: black;
+	background-image: url("images/coffee_beans3.jpg");
+	background-size: cover;
 	background-position: center top;
 }
 
 nav {
 	width: 100%;
-	background-color: black;
-	color: white;
+	background-color: #230b03;
+	color: #a38f74;
 }
 
 nav ul {
-	margin: 0px;
+	margin: 20px;
+	padding-bottom: 3px;
+	padding-top: 6px;
 }
 
 nav ul li {
 	list-style: none;
 	display: inline;
-	padding: 10px;
-	margin: 0px;
+	padding: 20px;
+	line-height: 1;
 }
 
 #dream {
-	width: 90px;
-	border-bottom: 2px dotted white;
+	font-family: "grand_hotelregular";
+	font-size: 45px;
+	line-height: 45px;
+	color: #cebb99;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 3px;
-	color:white;
-
+	margin-bottom: 7px;
+	width: 89px;
+	border-bottom: 3px dotted #cebb99;
 }
 
 .title {
 	text-transform: uppercase;
-	font-family: sans-serif;
+	font-family: "winterthurcondensedregular";
+	font-size: 40px;
+	line-height: 1;
 	color: white;
+}
+
+span {
+	width: 90px;
+	border-top: 4px dotted #cebb99;
 }
 
 h2 {
 	font-family: sans-serif;
+	color: #604c3f;
 }
 
 section {
 	width: 695px;
 	overflow: auto;
-	padding-top: 210px;
+	padding-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -68,11 +98,9 @@ article {
 }
 
 footer {
-	background-color: black;
-	color: white;
-	position: fixed;
-	bottom: 0px;
-	left: 0px;
-	padding: 10px;
+	background-color: #230b03;
+	color: #a38f74;
+	float: left;
+	clear: both;
 	width: 100%;
 }
