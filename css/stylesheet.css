@@ -1,0 +1,173 @@
+/*
+
+@font-face {
+    font-family: 'misoregular';
+    src: url('type/misoregular/miso-regular-webfont.eot');
+    src: url('type/misoregular/miso-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/misoregular/miso-regular-webfont.woff') format('woff'),
+         url('type/misoregular/miso-regular-webfont.ttf') format('truetype'),
+         url('type/misoregular/miso-regular-webfont.svg#misoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'misolight';
+    src: url('type/misolight/miso-light-webfont.eot');
+    src: url('type/misolight/miso-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/misolight/miso-light-webfont.woff') format('woff'),
+         url('type/misolight/miso-light-webfont.ttf') format('truetype'),
+         url('type/misolight/miso-light-webfont.svg#misolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('type/lato-reg-webfont.eot');
+    src: url('type/lato-reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/lato-reg-webfont.woff') format('woff'),
+         url('type/lato-reg-webfont.ttf') format('truetype'),
+         url('type/lato-reg-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*/
+
+
+body {
+	padding: 0;
+	margin:50px;
+	min-width: 380px;
+
+	/*'Lato', sans-serif; 'Abel', sans-serif;*/
+}
+
+
+h1 {
+	letter-spacing: 4px;
+	zoom:1.5;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+p {
+	padding:0;
+	line-height: 1.25;
+	font-family: serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color:#FAAB00;
+
+}
+
+a:hover {
+	color:#FA00CC;
+}
+
+
+
+
+@media (max-width: 880px) {
+	h1 {
+		max-width:600px;
+	}
+}
+
+@media (max-width: 750px) {
+	h1 {
+		max-width:600px;
+		}
+	p {
+		max-width: 550px;
+	}
+
+}
+
+@media (max-width: 630px) {
+	body {
+		text-align: center;
+	}
+	p {
+		max-width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/*
+
+nav ul li {
+	display: inline;
+	list-style-type: none;
+	padding: 10px;
+}
+
+nav ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+	color:white;
+}
+
+nav ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+nav {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: silver;
+	padding: 10px;
+}
+
+
+#title {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	zoom: 1.5;
+}
+
+header {
+	background-color: #FAF0E6;
+	width:100%;
+	padding: 0;
+	margin: 0;
+}
+
+#About {
+	background-color: #696969;
+	width:100%;
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+
+img.fullimage {
+	width:100%;
+	padding: 0;
+	margin: 0;
+	background-size: cover;
+}
+
+
+img.headshot {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 200px;
+}
+
+*/
