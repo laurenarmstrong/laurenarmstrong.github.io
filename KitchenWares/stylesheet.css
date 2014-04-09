@@ -1,0 +1,32 @@
+body {
+	font-family: sans-serif;
+	margin: 0px;
+}
+
+#header {
+  position: fixed;
+  top:0px;
+  left:0px;
+  background-color:rgba(0,0,0,0.5);
+  width: 100%;
+}
+
+#header h1 {
+  float: left;
+  margin: 0px;
+  color: white;
+}
+
+#nav ul li {
+float: right;
+	list-style-type: none;
+	display: inline;
+	padding: 5px;
+	margin: 0px;
+  color: white;
+}
+
+#nav ul {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
